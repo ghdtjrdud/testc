@@ -6,7 +6,12 @@ class Hello
 		dao.insert();
 		dao.update();
 
+
 		DeptDAO dDao = new DeptDAO();
 		dao.insert();
+
+		MemberDAO mDao = new MemberDAO();
+		mDao.insert();
+
 	}
 }

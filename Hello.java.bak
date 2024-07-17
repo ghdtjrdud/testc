@@ -5,5 +5,13 @@ class Hello
 		GoodsDAO dao = new GoodsDAO();
 		dao.insert();
 		dao.update();
+
+<<<<<<< HEAD
+		DeptDAO dDao = new DeptDAO();
+		dao.insert();
+=======
+		MemberDAO mDao = new MemberDAO();
+		mDao.insert();
+>>>>>>> 4f1db1f19c77120e108c23d26c8bcb2333d67467
 	}
 }
