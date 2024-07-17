@@ -1,0 +1,9 @@
+class GoodsDAO 
+{
+	public static void insert(){
+		System.out.println("insert goods OK");
+	}
+	public static void insert(){
+		System.out.println("update goods OK");
+	}
+}
